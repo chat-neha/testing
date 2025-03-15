@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 import spacy
+spacy.cli.download("en_core_web_md")
 import numpy as np
 from sklearn import svm
 
